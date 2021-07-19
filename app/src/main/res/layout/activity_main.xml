@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:topLeftRadius="10dp"
+        android:id="@+id/count"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:background="@android:color/darker_gray"
+        android:onClick="tinhtien"
+        android:text="@string/t_nh_ti_n_ph_ng"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:textAllCaps="false" />
+
+    <EditText
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:id="@+id/waterbfbox"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_toStartOf="@+id/waternwbox"
+        android:autofillHints="0"
+        android:ems="10"
+        android:hint="@string/n_c_tr_c"
+        android:inputType="number"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="387dp" />
+
+    <EditText
+        android:id="@+id/elecnwbox"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="10dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:autofillHints="0"
+        android:ems="10"
+        android:hint="@string/i_n_nay"
+        android:inputType="number"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <EditText
+        android:id="@+id/elecbfbox"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="100dp"
+        android:layout_toStartOf="@+id/elecnwbox"
+        android:autofillHints="0"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:ems="10"
+        android:hint="@string/i_n_tr_c"
+        android:inputType="number"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="465dp" />
+
+    <EditText
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:id="@+id/waternwbox"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="35dp"
+        android:autofillHints="0"
+        android:ems="10"
+        android:hint="@string/n_c_nay"
+        android:inputType="number"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <Spinner
+        android:layout_marginTop="15dp"
+        android:id="@+id/spinner"
+        android:layout_centerHorizontal="true"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:scrollbarSize="100dp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+
+</RelativeLayout>

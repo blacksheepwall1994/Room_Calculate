@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">tinhtiennha</string>
+    <string name="s_i_n">số điện</string>
+    <string name="water">Water</string>
+    <string name="elec">Elec</string>
+    <string name="t_nh_ti_n_ph_ng">Tính tiền phòng</string>
+    <string name="textview">TextView</string>
+    <string name="n_c_tr_c">Nước trước</string>
+    <string name="i_n_nay">Điện nay</string>
+    <string name="i_n_tr_c">Điện trước</string>
+    <string name="n_c_nay">Nước nay</string>
+    <string name="_00000">00000</string>
+    <string name="ti_n_n_c">Tiền nước:</string>
+    <string name="ti_n_i_n">Tiền điện:</string>
+    <string name="m_ng">Mạng:</string>
+    <string name="ph_ng">Phòng:</string>
+    <string name="t_ng">Tổng:</string>
+    <string name="t_n_ph_ng">Tên phòng</string>
+    <string-array name="paths">
+        <item>3.1</item>
+        <item>3.2</item>
+        <item>4.1</item>
+        <item>4.2</item>
+        <item>5.1</item>
+        <item>5.2</item>
+        <item>6.1</item>
+        <item>6.2</item>
+    </string-array>
+</resources>

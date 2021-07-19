@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    tools:context=".screenshot">
+    <TextView
+        android:id="@+id/tongnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="540dp"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="170dp" />
+
+    <TextView
+        android:id="@+id/tong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="540dp"
+        android:text="@string/t_ng"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/edtnuocbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="490dp"
+        android:text="@string/ti_n_n_c"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/mang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:text="@string/m_ng"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/edttenphong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/count"
+        android:layout_marginTop="300dp"
+        android:text="@string/t_n_ph_ng"
+        android:textSize="34sp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/phong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="346dp"
+        android:text="@string/ph_ng"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/edtdienbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:text="@string/ti_n_i_n"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="330dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="400dp"
+        android:text="50"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <TextView
+        android:id="@+id/electv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="450dp"
+        android:text=""
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="253dp" />
+    <TextView
+        android:id="@+id/watertv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="490dp"
+        android:text=""
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="413dp" />
+
+    <TextView
+        android:id="@+id/phongboxprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="210dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="351dp"
+        android:layout_toEndOf="@+id/phong"
+        android:gravity="top"
+        android:text="123456"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="302dp"
+        tools:layout_editor_absoluteY="29dp" />
+</RelativeLayout>
